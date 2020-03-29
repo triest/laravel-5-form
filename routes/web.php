@@ -19,7 +19,13 @@
         return view('form.form');
     });
 
+    Route::get('/form/config', 'formcontroller@config')->name('form-config');
+
     Route::post('/form', 'formcontroller@store_form')->name('store_form');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -8,19 +8,23 @@
         <div class="form-group">
             <label for="exampleInputEmail1">Name</label>
             <input type="text" class="form-control" name="name" id="name" placeholder="name">
+            @if($errors->has('name'))
+                <font color="red"><p>  {{$errors->first('name')}}</p></font>
+            @endif
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp"
-                   placeholder="Enter email" width="30">
+            <input type="phone" class="form-control" name="phone" id="phone" width="30">
+            @if($errors->has('phone'))
+                <font color="red"><p>  {{$errors->first('phone')}}</p></font>
+            @endif
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
             </small>
         </div>
-        <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" name="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <textarea id="description" style="resize: none" cols="30"></textarea>
+        <textarea id="description" name="description" style="resize: none" cols="30"></textarea>
+        @if($errors->has('description'))
+            <font color="red"><p>  {{$errors->first('description')}}</p></font>
+        @endif
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
