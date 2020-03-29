@@ -8,7 +8,6 @@
                     <div id="app">
                         <formconfig></formconfig>
                     </div>
-
                 </div>
             </div>
         </div>

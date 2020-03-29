@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+import Vue from 'vue';
 
 window.Vue = require('vue');
 
@@ -21,13 +22,22 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
-Vue.component('form', require('./components/formComponent.vue').default);
+Vue.component('formcomponent', require('./components/formComponent.vue').default);
 Vue.component('formconfig', require('./components/formConfig.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+import axios from 'axios';
+
+let token = document.head.querySelector('meta[name="csrf-token"]');
+
+if (token) {
+    window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+} else {
+    console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+}
 
 const app = new Vue({
     el: '#app',

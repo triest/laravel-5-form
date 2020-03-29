@@ -17,7 +17,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
           integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- Latest compiled and minified JavaScript -->
 
     <!-- Styles -->
@@ -26,7 +26,7 @@
             background-color: #fff;
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
-            font-weight: 200;
+            /*   font-weight: 200;*/
             height: 100vh;
             margin: 0;
         }
@@ -73,19 +73,20 @@
             margin-bottom: 30px;
         }
     </style>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
 
 
-
-
-    <div class="row row-offcanvas row-offcanvas-right">
-
-xzxz
-        <div class="row" style="z-index: -100">
-            @yield('content')
-        </div><!--/row-->
-    </div><!--/span-->
+<div class="col-sm-1">
+</div>
+<div class="col-sm-10">
+    <div class="row" style="z-index: -100">
+        @yield('content')
+    </div><!--/row-->
+</div>
+<div class="col-sm-1">
+</div>
 
 
 </body>

@@ -18,8 +18,8 @@
                     'phone' => 'required|numeric',
                     'description' => 'required|min:10',
             ]);
-           $factory=new Factory();
-           $bid=$factory->create("Bid");
+            $factory = new Factory();
+            $bid = $factory->create("Bid");
             $bid->name = $request->name;
             $bid->phone = $request->phone;
             $bid->description = $request->description;
@@ -29,7 +29,6 @@
 
         public function config()
         {
-
             return view('form.config');
         }
     }

@@ -1941,16 +1941,74 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "formComponent",
+  data: function data() {
+    return {
+      name: "",
+      phone: "",
+      description: "",
+      info: null
+    };
+  },
   mounted: function mounted() {
     console.log("form");
   },
-  methods: {}
+  methods: {
+    saves: function saves() {
+      console.log("save");
+      var form = document.getElementById("form");
+      var data = new FormData();
+      data.append("name", this.name);
+      data.append("phone", this.phone);
+      data.append("description", this.description);
+      axios.post('form', data).then(function (response) {
+        console.log(response.status);
+
+        if (response.status == "200") {
+          alert("Данные приняты");
+        } else {}
+      })["catch"](function (error) {
+        // error.response can be null
+        if (error.response && error.response.status === 422) {
+          console.log(error.response.data.errors);
+          var errors = error.response.data.errors;
+          console.log(_typeof(errors));
+          var array = Object.values(errors);
+          var message = "";
+          array.forEach(function (element) {
+            return message += " " + element;
+          });
+          console.log(message);
+          alert(message);
+        }
+      });
+    },
+    validate: function validate() {}
+  }
 });
 
 /***/ }),
@@ -37400,7 +37458,102 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c("form", { attrs: { id: "form" } }, [
+    _c("div", { staticClass: "form-group" }, [
+      _c("label", [_vm._v("Name")]),
+      _vm._v(" "),
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.name,
+            expression: "name"
+          }
+        ],
+        staticClass: "form-control",
+        attrs: { type: "text", name: "name", id: "name", placeholder: "nam1e" },
+        domProps: { value: _vm.name },
+        on: {
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.name = $event.target.value
+          }
+        }
+      })
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "form-group" }, [
+      _c("label", [_vm._v("Email address")]),
+      _vm._v(" "),
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.phone,
+            expression: "phone"
+          }
+        ],
+        staticClass: "form-control",
+        attrs: { type: "phone", name: "phone", id: "phone", width: "30" },
+        domProps: { value: _vm.phone },
+        on: {
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.phone = $event.target.value
+          }
+        }
+      }),
+      _vm._v(" "),
+      _c(
+        "small",
+        { staticClass: "form-text text-muted", attrs: { id: "emailHelp" } },
+        [_vm._v("We'll never share your email with anyone else.\n        ")]
+      )
+    ]),
+    _vm._v(" "),
+    _c("textarea", {
+      directives: [
+        {
+          name: "model",
+          rawName: "v-model",
+          value: _vm.description,
+          expression: "description"
+        }
+      ],
+      staticStyle: { resize: "none" },
+      attrs: { id: "description", name: "description", cols: "30" },
+      domProps: { value: _vm.description },
+      on: {
+        input: function($event) {
+          if ($event.target.composing) {
+            return
+          }
+          _vm.description = $event.target.value
+        }
+      }
+    }),
+    _vm._v(" "),
+    _c("br"),
+    _vm._v(" "),
+    _c(
+      "button",
+      {
+        attrs: { type: "button" },
+        on: {
+          click: function($event) {
+            return _vm.saves()
+          }
+        }
+      },
+      [_vm._v("\n        Сохранить\n    ")]
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -49594,15 +49747,22 @@ module.exports = function(module) {
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**
@@ -49615,16 +49775,25 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
-Vue.component('form', __webpack_require__(/*! ./components/formComponent.vue */ "./resources/js/components/formComponent.vue")["default"]);
-Vue.component('formconfig', __webpack_require__(/*! ./components/formConfig.vue */ "./resources/js/components/formConfig.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('formcomponent', __webpack_require__(/*! ./components/formComponent.vue */ "./resources/js/components/formComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('formconfig', __webpack_require__(/*! ./components/formConfig.vue */ "./resources/js/components/formConfig.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-var app = new Vue({
+
+var token = document.head.querySelector('meta[name="csrf-token"]');
+
+if (token) {
+  window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+} else {
+  console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+}
+
+var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app'
 });
 
