@@ -24,11 +24,45 @@
             $bid->phone = $request->phone;
             $bid->description = $request->description;
             $bid->save();
+        }
 
+        public function edit(Request $request)
+        {
+
+            $validatedData = $request->validate([
+                    'id' => 'required|numeric',
+                    'name' => 'required',
+                    'phone' => 'required|numeric',
+                    'description' => 'required|min:10',
+            ]);
+
+            $bid = Bid::select(["id", "name", "phone", "description"])->where('id', $request->id)->first();
+            $bid->name = $request->name;
+            $bid->phone = $request->phone;
+            $bid->description = $request->description;
+            $bid->save();
         }
 
         public function config()
         {
             return view('form.config');
+        }
+
+        public function listBids()
+        {
+            return view('list');
+        }
+
+        public function getBids()
+        {
+            $bids = Bid::select()->get();
+
+            return response()->json($bids);
+        }
+
+        public function getBid($id)
+        {
+            $bids = Bid::select()->where('id', $id)->get();
+            return response()->json($bids);
         }
     }

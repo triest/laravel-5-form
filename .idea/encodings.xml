@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/js/components/formComponent.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/js/components/listComponent.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/js/components/modal.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/form/form.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/layouts/welcome.blade.php" charset="UTF-8" />
   </component>
