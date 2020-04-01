@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="df76fedd-f9b4-49f2-a012-94f8c3880523" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Bid.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/FactoryAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/FactoryAbstract.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FormController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/formComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/formComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/listComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/listComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/form/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,68 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="listComponent.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="listComponent.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/js/components/listComponent.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/modal.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/list.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="67" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/form/form.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formComponent.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/formComponent.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="17" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#textarea#0;n#form#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -102,28 +41,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>another</find>
-      <find>check_add</find>
-      <find>red</find>
-      <find>console</find>
-      <find>showModalFunction</find>
-      <find>moving_city</find>
-      <find>Перее</find>
-      <find>Переезд</find>
-      <find>moving_number</find>
-      <find>Переезд ме</find>
-      <find>Переезд между городами запрещен</find>
-      <find>Переезд между городами запрещен! Только регистрация нового договора</find>
-      <find>innerl</find>
-      <find>inner</find>
-      <find>pinned</find>
-      <find>date</find>
-      <find>Укажите к</find>
-      <find>save</find>
-      <find>'save'</find>
-      <find>shown_for_groups</find>
-      <find>showHideCount</find>
-      <find>ebableCount</find>
       <find>tabel</find>
       <find>$(&quot;#count126&quot;).val(1);</find>
       <find>fa</find>
@@ -132,12 +49,35 @@
       <find>name</find>
       <find>saves</find>
       <find>close</find>
+      <find>clous</find>
+      <find>showModalF</find>
+      <find>catside</find>
+      <find>get_speedtest</find>
+      <find>speedtest</find>
+      <find>ajax/speedtest/</find>
+      <find>Замеры</find>
+      <find>get_speedtest_last</find>
+      <find>speedtests</find>
+      <find>Установить оборудование</find>
+      <find>addHardware</find>
+      <find>a</find>
+      <find>work_w</find>
+      <find>s</find>
+      <find>select</find>
+      <find>PDOManager</find>
+      <find>support_2</find>
+      <find>$this-&gt;support</find>
+      <find>$support</find>
+      <find>add_comment</find>
+      <find>Уста</find>
+      <find>get_next</find>
     </findStrings>
     <dirStrings>
       <dir>E:\openServer535\OSPanel\domains\laravel-form\blog</dir>
       <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\plan</dir>
       <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\client_service</dir>
       <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\rating</dir>
+      <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\plan\</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -153,9 +93,7 @@
         <option value="$PROJECT_DIR$/app/BidAbs.php" />
         <option value="$PROJECT_DIR$/app/Factory.php" />
         <option value="$PROJECT_DIR$/resources/views/form/config.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/formComponent.vue" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/calls_control/tpl/view.tpl" />
-        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/class/models/plan_item.php" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/network/modules/builds/events-load.php" />
         <option value="$PROJECT_DIR$/plan/modules/item/std/tabel_block.tpl" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/seeuser/functions.php" />
@@ -180,12 +118,16 @@
         <option value="$PROJECT_DIR$/resources/js/components/modal.vue" />
         <option value="$PROJECT_DIR$/app/FactoryAbstract.php" />
         <option value="$PROJECT_DIR$/app/Bid.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FormController.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/listComponent.vue" />
         <option value="$PROJECT_DIR$/resources/views/layouts/welcome.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/list.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/form/form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/formComponent.vue" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FormController.php" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/support/support/modules/ajax.php" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/class/models/plan_item.php" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/modules/widget/widget.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/listComponent.vue" />
       </list>
     </option>
   </component>
@@ -317,24 +259,6 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -349,31 +273,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,7 +337,7 @@
       <workItem from="1585505127197" duration="448000" />
       <workItem from="1585506985077" duration="214000" />
       <workItem from="1585545776434" duration="54484000" />
-      <workItem from="1585719473507" duration="3397000" />
+      <workItem from="1585719473507" duration="17147000" />
     </task>
     <task id="LOCAL-00001" summary="Before add vue">
       <created>1585469933534</created>
@@ -475,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585688184820</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add title and links">
+      <created>1585723787245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585723787245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93081000" />
+    <option name="totallyTimeSpent" value="106831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -489,14 +395,16 @@
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005208" side_tool="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Migrations" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="0" visible="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49947917" weight="0.32629356" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.240625" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.240625" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1796875" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32946146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
@@ -506,8 +414,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="0" weight="0.32946146" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32946146" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,26 +464,10 @@
     <MESSAGE value="Add facoty" />
     <MESSAGE value="Add show error message" />
     <MESSAGE value="Add edit from modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add edit from modal" />
+    <MESSAGE value="Add title and links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add title and links" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FormController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#48#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Bid.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -721,7 +611,6 @@
     <entry file="file://$PROJECT_DIR$/plan/modules/item/std/tabel_block.tpl" />
     <entry file="file://$PROJECT_DIR$/client_service/tpl/ajax/edit_contact.tpl" />
     <entry file="file://$PROJECT_DIR$/client_service/js/module_edit.js" />
-    <entry file="file://$PROJECT_DIR$/plan/modules/item/item_newbies.tpl" />
     <entry file="file://$PROJECT_DIR$/client_service/tpl/edit.tpl" />
     <entry file="file://$PROJECT_DIR$/client_service/modules/edit.php" />
     <entry file="file://$PROJECT_DIR$/client_service/classes/client.class.php" />
@@ -734,23 +623,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rating/modules/worker/worker.php" />
-    <entry file="file://$PROJECT_DIR$/resources/js/components/formComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/modal.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Factory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -762,16 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="600" column="20" selection-start-line="600" selection-start-column="20" selection-end-line="600" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FormController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding>
-            <element signature="e#48#60#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,31 +665,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/listComponent.vue">
+    <entry file="file://$PROJECT_DIR$/resources/views/form/form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="170">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="55" />
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/modal.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="30" column="67" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="67" />
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/form/form.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FormController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="630">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding>
+            <element signature="e#48#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/formComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan/modules/item/item_newbies.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="357" column="40" selection-start-line="357" selection-start-column="29" selection-end-line="357" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan/modules/item/item.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/listComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>

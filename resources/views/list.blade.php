@@ -1,4 +1,4 @@
-@extends('layouts.welcome', ['title' => 'ListBids'])
+@extends('layouts.welcome', ['title' => 'List bids'])
 
 
 @section('content')

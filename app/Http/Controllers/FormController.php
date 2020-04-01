@@ -55,7 +55,7 @@
 
         public function getBids()
         {
-            $bids = Bid::select()->get();
+            $bids = Bid::select()->paginate(3);
 
             return response()->json($bids);
         }

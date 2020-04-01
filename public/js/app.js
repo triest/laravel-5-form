@@ -2071,6 +2071,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "listComponent",
@@ -2078,11 +2082,16 @@ __webpack_require__.r(__webpack_exports__);
     return {
       bids: "",
       showModal: false,
-      item_id: null
+      item_id: null,
+      current_page: 1,
+      first_page_url: null,
+      last_page_url: null,
+      next_page_url: null,
+      prev_page_url: null,
+      total: null
     };
   },
   mounted: function mounted() {
-    console.log("list");
     this.get();
   },
   methods: {
@@ -2090,7 +2099,30 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       axios.get('bids').then(function (response) {
-        _this.bids = response.data;
+        var data = response.data;
+        _this.bids = data.data;
+        _this.current_page = data.current_page;
+        _this.first_page_url = data.first_page_url;
+        _this.last_page_url = data.last_page_url;
+        _this.next_page_url = data.next_page_url;
+        _this.prev_page_url = data.prev_page_url;
+        _this.total = data.total;
+        console.log(_this.total);
+      });
+    },
+    get_next: function get_next(url) {
+      var _this2 = this;
+
+      axios.get(url).then(function (response) {
+        var data = response.data;
+        _this2.bids = data.data;
+        _this2.current_page = data.current_page;
+        _this2.first_page_url = data.first_page_url;
+        _this2.last_page_url = data.last_page_url;
+        _this2.next_page_url = data.next_page_url;
+        _this2.prev_page_url = data.prev_page_url;
+        _this2.total = data.total;
+        console.log(_this2.total);
       });
     },
     showModalF: function showModalF(id) {
@@ -38309,7 +38341,7 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "form-group" }, [
-      _c("label", [_vm._v("Email address")]),
+      _c("label", [_vm._v("Phone")]),
       _vm._v(" "),
       _c("input", {
         directives: [
@@ -38450,7 +38482,43 @@ var render = function() {
             )
           }),
           0
-        )
+        ),
+        _vm._v(" "),
+        _vm.prev_page_url != null
+          ? _c("div", [
+              _c(
+                "a",
+                {
+                  on: {
+                    click: function($event) {
+                      return _vm.get_next(_vm.prev_page_url)
+                    }
+                  }
+                },
+                [_vm._v("Next Page")]
+              )
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.total != 1
+          ? _c("div", [_vm._v(_vm._s(_vm.current_page))])
+          : _vm._e(),
+        _vm._v("\n        " + _vm._s(_vm.total) + "\n        "),
+        _vm.next_page_url != null
+          ? _c("div", [
+              _c(
+                "a",
+                {
+                  on: {
+                    click: function($event) {
+                      return _vm.get_next(_vm.next_page_url)
+                    }
+                  }
+                },
+                [_vm._v("Prevesion Page")]
+              )
+            ])
+          : _vm._e()
       ]),
       _vm._v(" "),
       _vm.showModal === true
@@ -38464,7 +38532,7 @@ var render = function() {
                     _vm.showModal = false
                   },
                   function($event) {
-                    return _vm.clous()
+                    return _vm.close()
                   }
                 ]
               }
