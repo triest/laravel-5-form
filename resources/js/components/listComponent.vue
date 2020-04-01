@@ -13,10 +13,11 @@
                 <td>{{bid.name}}</td>
             </tr>
             </tbody>
-            <div v-if="prev_page_url!=null"><a v-on:click="get_next(prev_page_url)">Next Page</a></div>
-            <div v-if="total!=1">{{current_page}}</div>
-            {{total}}
-            <div v-if="next_page_url!=null"><a v-on:click="get_next(next_page_url)">Prevesion Page</a></div>
+            <a class="previous " v-if="prev_page_url!=null"><a v-on:click="get_next(prev_page_url)"> < </a></a>
+            <span v-if="total!=1">{{current_page}}</span>
+            from
+            {{last_page}}
+            <a href="#" class="next " v-if="next_page_url!=null"><a v-on:click="get_next(next_page_url)"> > </a></a>
         </table>
         <modal v-if="showModal===true" :item_id="item_id" v-on:close="showModal = false" @close='close()'>></modal>
     </div>
@@ -54,6 +55,7 @@
                         this.last_page_url = data.last_page_url;
                         this.next_page_url = data.next_page_url;
                         this.prev_page_url = data.prev_page_url;
+                        this.last_page = data.last_page;
                         this.total = data.total;
                         console.log(this.total)
                     });
@@ -86,5 +88,28 @@
 </script>
 
 <style scoped>
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 3px 3px;
+    }
 
+    a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .previous {
+        background-color: #f1f1f1;
+        color: black;
+    }
+
+    .next {
+        background-color: #9d98af;
+        color: white;
+    }
+
+    .round {
+        border-radius: 50%;
+    }
 </style>

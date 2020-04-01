@@ -14,7 +14,7 @@
         <textarea id="description" name="description" v-model="description" style="resize: none" cols="30"></textarea>
         <br>
         <button type="button" v-on:click="saves()">
-            Сохранить
+            Save
         </button>
     </form>
 </template>

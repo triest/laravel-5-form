@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="df76fedd-f9b4-49f2-a012-94f8c3880523" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FormController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/formComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/formComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/listComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/listComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="listComponent.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listComponent.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/listComponent.vue">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1453">
+              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formComponent.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/formComponent.vue">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="17" selection-end-column="21" />
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -41,19 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tabel</find>
-      <find>$(&quot;#count126&quot;).val(1);</find>
-      <find>fa</find>
-      <find>fact</find>
-      <find>count</find>
-      <find>name</find>
-      <find>saves</find>
-      <find>close</find>
-      <find>clous</find>
-      <find>showModalF</find>
-      <find>catside</find>
-      <find>get_speedtest</find>
-      <find>speedtest</find>
       <find>ajax/speedtest/</find>
       <find>Замеры</find>
       <find>get_speedtest_last</find>
@@ -71,13 +65,26 @@
       <find>add_comment</find>
       <find>Уста</find>
       <find>get_next</find>
+      <find>change_ta</find>
+      <find>log</find>
+      <find>low_tarif_comment</find>
+      <find>msArp</find>
+      <find>msArp-&gt;</find>
+      <find>check_hub</find>
+      <find>check_hu</find>
+      <find>RatingTypeManager</find>
+      <find>Дата добавления:</find>
+      <find>Даьа</find>
+      <find>Дата р</find>
+      <find>|date_format:</find>
+      <find>191</find>
     </findStrings>
     <dirStrings>
       <dir>E:\openServer535\OSPanel\domains\laravel-form\blog</dir>
-      <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\plan</dir>
       <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\client_service</dir>
       <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\rating</dir>
       <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\plan\</dir>
+      <dir>E:\openServer535\OSPanel\domains\laravel-form\blog\plan</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -86,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/form/welcome.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_28_182823_create-bid-table.php" />
         <option value="$PROJECT_DIR$/resources/js/components/formConfig.vue" />
@@ -96,9 +102,7 @@
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/calls_control/tpl/view.tpl" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/network/modules/builds/events-load.php" />
         <option value="$PROJECT_DIR$/plan/modules/item/std/tabel_block.tpl" />
-        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/seeuser/functions.php" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/mac-sniff/ajax.php" />
-        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/seeuser/ajax.php" />
         <option value="$PROJECT_DIR$/client_service/tpl/ajax/edit_contact.tpl" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/client_service/tpl/ajax/edit_contact.tpl" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/client_service/tpl/ajax/new_contact.tpl" />
@@ -122,12 +126,24 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/form/form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/list.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/formComponent.vue" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FormController.php" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/support/support/modules/ajax.php" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/class/models/plan_item.php" />
         <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/modules/widget/widget.php" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/support_stats/modules/lowering_tarifs.php" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/change_tarif/index.php" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/support_stats/tpl/lowering_tarifs.tpl" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/seeuser/ajax.php" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/seeuser/functions.php" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/modules/item/item_default.tpl" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/modules/item/item_network.tpl" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/modules/item/item_failures.tpl" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/modules/item/item_newbies.tpl" />
+        <option value="$PROJECT_DIR$/plan/modules/item/item_support.tpl" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/plan/modules/item/item_support.tpl" />
+        <option value="&lt;1cc8385a-929f-47c9-b206-547da89c2832&gt;/srv/www/vhosts/drevlanka.ru/work/seeuser/index.php" />
         <option value="$PROJECT_DIR$/resources/js/components/listComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/formComponent.vue" />
       </list>
     </option>
   </component>
@@ -248,13 +264,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="plan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -278,6 +298,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,7 +358,9 @@
       <workItem from="1585505127197" duration="448000" />
       <workItem from="1585506985077" duration="214000" />
       <workItem from="1585545776434" duration="54484000" />
-      <workItem from="1585719473507" duration="17147000" />
+      <workItem from="1585719473507" duration="24622000" />
+      <workItem from="1585749132715" duration="384000" />
+      <workItem from="1585749836147" duration="10329000" />
     </task>
     <task id="LOCAL-00001" summary="Before add vue">
       <created>1585469933534</created>
@@ -381,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585723787245</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add pagination">
+      <created>1585739447956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585739447956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106831000" />
+    <option name="totallyTimeSpent" value="125019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -465,19 +495,10 @@
     <MESSAGE value="Add show error message" />
     <MESSAGE value="Add edit from modal" />
     <MESSAGE value="Add title and links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add title and links" />
+    <MESSAGE value="Add pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pagination" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Bid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -700,19 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-          <folding>
-            <element signature="e#48#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/formComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,10 +738,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plan/modules/item/item_network.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan/modules/item/item_support.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="192" column="47" lean-forward="true" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/listComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1453">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/formComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="17" selection-end-column="21" />
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
