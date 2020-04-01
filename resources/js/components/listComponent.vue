@@ -47,6 +47,7 @@
             },
             close() {
                 this.showModal = false;
+                this.get();
             }
         }
     }

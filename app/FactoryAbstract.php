@@ -22,7 +22,23 @@
             }
         }
 
-        public function creareBid(){
+        public function update($type, $item)
+        {
+            switch ($type) {
+                case'Bid':
+                    return $this->updateBid($item);
+                default:
+                    return $this->updateBid();
+            }
+        }
+
+        public function creareBid()
+        {
             return new Bid();
+        }
+
+        public function updateBid(Bid $bid)
+        {
+            $bid->update();
         }
     }

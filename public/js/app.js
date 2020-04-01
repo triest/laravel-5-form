@@ -2099,6 +2099,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     close: function close() {
       this.showModal = false;
+      this.get();
     }
   }
 });

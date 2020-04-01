@@ -17,7 +17,7 @@
 
     Route::get('/form', function () {
         return view('form.form');
-    });
+    })->name('form');
 
     Route::get('/form/config', 'formcontroller@config')->name('form-config');
 

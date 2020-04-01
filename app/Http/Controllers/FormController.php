@@ -40,7 +40,7 @@
             $bid->name = $request->name;
             $bid->phone = $request->phone;
             $bid->description = $request->description;
-            $bid->save();
+            $bid->updateRecord();
         }
 
         public function config()

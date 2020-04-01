@@ -13,4 +13,10 @@
                         'description',
                         'phone',
                 ];
+
+
+        public function updateRecord()
+        {
+            $this->save();
+        }
     }
