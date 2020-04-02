@@ -32,7 +32,6 @@
                         Close
                     </button>
                 </div>
-
             </div>
 
 

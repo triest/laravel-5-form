@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table class="table  table-striped align-content-center"  align="center">
+        <table class="table  table-striped align-content-center"  align="center" width="sm-1">
             <thead>
             <tr>
                 <th scope="col">name</th>
@@ -9,8 +9,8 @@
             </thead>
             <tbody>
             <tr v-for="bid in bids" v-on:click="showModalF(bid.id)" style="cursor:pointer">
-                <td  class="col-sm-1">{{bid.name}}</td>
-                <td  class="col-sm-1">{{bid.created_at}}</td>
+                <td>{{bid.name}}</td>
+                <td>{{bid.created_at}}</td>
             </tr>
             </tbody>
             <a class="previous " v-if="prev_page_url!=null"><a v-on:click="get_next(prev_page_url)"> < </a></a>

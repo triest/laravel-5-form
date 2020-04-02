@@ -2184,7 +2184,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     item_id: {
@@ -38512,7 +38511,7 @@ var render = function() {
         "table",
         {
           staticClass: "table  table-striped align-content-center",
-          attrs: { align: "center" }
+          attrs: { align: "center", width: "sm-1" }
         },
         [
           _vm._m(0),
@@ -38531,13 +38530,9 @@ var render = function() {
                   }
                 },
                 [
-                  _c("td", { staticClass: "col-sm-1" }, [
-                    _vm._v(_vm._s(bid.name))
-                  ]),
+                  _c("td", [_vm._v(_vm._s(bid.name))]),
                   _vm._v(" "),
-                  _c("td", { staticClass: "col-sm-1" }, [
-                    _vm._v(_vm._s(bid.created_at))
-                  ])
+                  _c("td", [_vm._v(_vm._s(bid.created_at))])
                 ]
               )
             }),
