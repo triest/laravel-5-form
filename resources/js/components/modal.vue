@@ -8,25 +8,29 @@
                     <div class="modal-body">
                         <slot name="body">
                             <input type="hidden" name="id" id="id" v-model="id">
-                            <input type="text" class="form-control" name="name" id="name" v-model="inputName"
-                                   placeholder="nam1e">
-                            <input type="phone" class="form-control" name="phone" id="phone" v-model="phone" width="30">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" name="name" id="name" v-model="inputName"
+                                       placeholder="nam1e">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <input type="phone" class="form-control" name="phone" id="phone" v-model="phone"
+                                       width="30">
+                            </div>
+                            <div class="form-group">
                             <textarea rows="10" cols="45" v-model="description" id="MessageText"
                                       name="MessageText"></textarea>
+                            </div>
                         </slot>
                     </div>
-
-                    <div class="modal-footer">
-                        <slot name="footer">
-                            <br>
-                            <button type="button" v-on:click="edit()">
-                                Сохранить
-                            </button>
-                            <button type="button" v-on:click="close()">
-                                Закрыть
-                            </button>
-                        </slot>
-                    </div>
+                    <br>
+                    <button type="button" v-on:click="edit()">
+                        Save
+                    </button>
+                    <button type="button" v-on:click="close()">
+                        Close
+                    </button>
                 </div>
 
             </div>

@@ -1,21 +1,21 @@
 <template>
     <div>
-        <table class="table  table-striped">
+        <table class="table  table-striped align-content-center"  align="center">
             <thead>
             <tr>
-                <th scope="col">id</th>
                 <th scope="col">name</th>
+                <th scope="col">date</th>
             </tr>
             </thead>
             <tbody>
-            <tr v-for="bid in bids" v-on:click="showModalF(bid.id)">
-                <td>{{bid.id}}</td>
-                <td>{{bid.name}}</td>
+            <tr v-for="bid in bids" v-on:click="showModalF(bid.id)" style="cursor:pointer">
+                <td  class="col-sm-1">{{bid.name}}</td>
+                <td  class="col-sm-1">{{bid.created_at}}</td>
             </tr>
             </tbody>
             <a class="previous " v-if="prev_page_url!=null"><a v-on:click="get_next(prev_page_url)"> < </a></a>
             <span v-if="total!=1">{{current_page}}</span>
-            from
+            of
             {{last_page}}
             <a href="#" class="next " v-if="next_page_url!=null"><a v-on:click="get_next(next_page_url)"> > </a></a>
         </table>
@@ -81,7 +81,6 @@
             },
             close() {
                 this.showModal = false;
-                this.get();
             }
         }
     }
@@ -102,11 +101,13 @@
     .previous {
         background-color: #f1f1f1;
         color: black;
+        cursor:pointer;
     }
 
     .next {
         background-color: #9d98af;
         color: white;
+        cursor:pointer;
     }
 
     .round {

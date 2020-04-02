@@ -3,7 +3,7 @@
     <form id="form">
         <div class="form-group">
             <label>Name</label>
-            <input type="text" class="form-control" name="name" id="name" v-model="name" placeholder="nam1e">
+            <input type="text" class="form-control" name="name" id="name" v-model="name" placeholder="name">
         </div>
         <div class="form-group">
             <label>Phone</label>
@@ -44,25 +44,19 @@
                 data.append("description", this.description);
 
                 axios.post('form', data).then(function (response) {
-                    console.log(response.status)
                     if (response.status == "200") {
-                        alert("Данные приняты")
+                        alert("Data accepted")
                     } else {
-
+                        alert("Error")
                     }
                 }).catch(error => {
                     // error.response can be null
                     if (error.response && error.response.status === 422) {
-                        console.log(error.response.data.errors);
                         let errors = error.response.data.errors;
-                        console.log(typeof errors)
                         let array = (Object.values(errors));
                         let message = "";
                         array.forEach(element => message += " " + element);
-
-                        console.log(message)
                         alert(message)
-
 
                     }
                 })
