@@ -55,7 +55,7 @@
 
         public function getBids()
         {
-            $bids = Bid::select()->orderBy('created_at','desc')->paginate(3);
+            $bids = Bid::select()->orderBy('created_at','desc')->paginate(10);
 
             return response()->json($bids);
         }

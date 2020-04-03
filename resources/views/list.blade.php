@@ -3,7 +3,7 @@
 
 @section('content')
     <h3>Bid List</h3>
-    <b><a href="{{ route('form') }}">Create Bid</a></b>
+    <b><a type="button" class="btn btn-primary" href="{{ route('form') }}">Create Bid</a></b>
     @guest
         <p>
             Login for view Bids

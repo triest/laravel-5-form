@@ -25,16 +25,14 @@
                         </slot>
                     </div>
                     <br>
-                    <button type="button" v-on:click="edit()">
+                    <button type="button" class="btn btn-primary" v-on:click="edit()">
                         Save
                     </button>
-                    <button type="button" v-on:click="close()">
+                    <button type="button" class="btn btn-secondary" v-on:click="close()">
                         Close
                     </button>
                 </div>
             </div>
-
-
         </div>
     </transition>
 </template>

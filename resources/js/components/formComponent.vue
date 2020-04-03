@@ -3,17 +3,15 @@
     <form id="form">
         <div class="form-group">
             <label>Name</label>
-            <input type="text" class="form-control" name="name" id="name" v-model="name" placeholder="name">
+            <input type="text" class="form-control" rows="5" name="name" id="name" v-model="name">
         </div>
         <div class="form-group">
             <label>Phone</label>
-            <input type="phone" class="form-control" name="phone" id="phone" v-model="phone" width="30">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
-            </small>
+            <input type="phone" class="form-control" name="phone" id="phone" v-model="phone" width="10">
         </div>
         <textarea id="description" name="description" v-model="description" style="resize: none" cols="30"></textarea>
         <br>
-        <button type="button" v-on:click="saves()">
+        <button type="button" class="btn btn-primary" v-on:click="saves()">
             Save
         </button>
     </form>
@@ -45,7 +43,10 @@
 
                 axios.post('form', data).then(function (response) {
                     if (response.status == "200") {
-                        alert("Data accepted")
+                        alert("Data accepted");
+                        let link = document.createElement('a');
+                        link.href = "/blog/public";
+                        link.click()
                     } else {
                         alert("Error")
                     }
@@ -55,9 +56,8 @@
                         let errors = error.response.data.errors;
                         let array = (Object.values(errors));
                         let message = "";
-                        array.forEach(element => message += " " + element);
+                        array.forEach(element => message += " " + element + "\n");
                         alert(message)
-
                     }
                 })
             },
@@ -70,5 +70,12 @@
 </script>
 
 <style scoped>
+    textarea,
+    input[type] {
+        width: 250px;
+    }
 
+    #form {
+        position: center;
+    }
 </style>

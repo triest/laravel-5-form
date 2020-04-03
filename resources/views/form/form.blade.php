@@ -3,9 +3,9 @@
 
 @section('content')
 
-        <div id="app">
-            <formcomponent></formcomponent>
-        </div>
-        <b><a href="{{ route('listBids') }}">Back</a></b>
+    <div id="app" style="position: center">
+        <formcomponent></formcomponent>
+    </div>
+    <b><a type="button" class="btn btn-default" href="{{ route('listBids') }}">Back</a></b>
 
 @endsection
