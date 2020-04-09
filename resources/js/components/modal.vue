@@ -83,8 +83,8 @@
                 let url = "form/" + this.id;
                 axios.post(url, data).then(function (response) {
                     if (response.status == "200") {
-                        alert("Данные приняты");
-                        this.close()
+                        alert("Data accepted !");
+                        this.$emit('close')
                     } else {
 
                     }

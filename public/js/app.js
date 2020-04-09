@@ -2228,8 +2228,8 @@ __webpack_require__.r(__webpack_exports__);
       var url = "form/" + this.id;
       axios.post(url, data).then(function (response) {
         if (response.status == "200") {
-          alert("Данные приняты");
-          this.close();
+          alert("Data accepted !");
+          this.$emit('close');
         } else {}
       })["catch"](function (error) {
         // error.response can be null
